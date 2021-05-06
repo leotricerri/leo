@@ -1,0 +1,97 @@
+
+    header{
+        display: flex;
+        width: auto;  
+        justify-content: center;
+        background-color:#e5e5e5;
+        text-align: center;
+        font-size: 30px;
+        font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif    ;
+    }
+
+    
+    #flex-container {
+                 min-height:320px; 
+                 display: flex;
+                 background-image: url("paisajes-naturales-26-1024x640.png");
+                 margin-top: 10px;
+                 align-items: center;
+                 justify-content: space-evenly;
+                 }
+    .box{        
+                 border: 2px solid black;
+                 border-radius: 10%;
+                 width: 100px;
+                 margin: 10px;
+                 text-align: center;
+                 line-height: 75px;
+                 font-size: 30px;
+                 font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif    ;
+    }
+
+    #article{
+              
+        width:80%;
+        float: left;
+        
+    }
+    #section > #box{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        line-height: 75px;
+
+    }
+
+    #aside > .box{
+        display:flex;;
+        text-align: center;
+        background-color: ;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    } 
+    #CabezeraNav{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        background-color: #e4b469;
+        font-size: 30px;
+        font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        height: 80px;
+        
+    }
+
+    #secLeft{
+        background-color: #cf6219;
+       
+        width:auto;
+        display:flex;
+        flex-direction: row;
+        line-height: 100px;
+        justify-content: space-evenly;
+    }
+    #secRight{
+        background-color: #4999cf;
+        
+        display:flex;
+        flex-direction: row;
+        width:auto;
+        line-height: 100px;
+        justify-content: space-evenly;
+    }
+    
+    #aside{
+        display:flex;
+        background-color: #396277 ;
+        align-items: center;
+        flex-direction: column;
+        float: right;
+        width: 20% ;
+        min-height: 800px;
+    }
+
+   
+    
