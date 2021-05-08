@@ -1,0 +1,108 @@
+body {
+    display: block;
+    margin: 0px;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    width: auto;
+    background-color: #fff159;
+    justify-content: flex-start
+}
+
+.headIzq{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center
+}
+.logo{
+    display:flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.envio{
+    display:flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buscador{
+    width: 43%;
+    display:flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+.buscador >.caja{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.caja > input{
+    
+    border:transparent;
+    height: 35px;
+}
+#nomCaja{
+    width: 100%;
+}
+.caja > ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+.caja ul li{
+        color:#33333399;
+        margin: 5px;
+}
+
+.headDer{
+    display:flex;
+    width: 33%;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center
+}
+.mercPoint{
+    display:flex;
+    justify-content: center;
+    
+}
+.botonera{
+    display:flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.botonera ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.botonera ul li{
+    color:#33333399;
+    margin: 5px;
+}
+
+#lupa{
+   
+    color:#33333399;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    justify-content: center;
+    background: white;
+}
